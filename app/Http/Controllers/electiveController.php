@@ -15,6 +15,10 @@ class electiveController extends Controller
         return view('elective/index', compact('info', 'total'));
     }
 
+    public function devote()
+    {
+        return view('elective/devote');
+    }
 
     public function store(Request $request)
     {
